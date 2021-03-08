@@ -1,0 +1,8 @@
+package gemeral;
+
+public enum Skill {
+	
+	WEAPONSMITHING, TOOLSMITHING, AMORING, FISHING, ENCHANTING, BREWING, SUMMONING;
+	
+	
+}

@@ -1,0 +1,5 @@
+package gemeral;
+
+public enum ItemType {
+	SWORD, PICKAXE, AXE, SHOWEL, HOE, BOOTS, LEGGINGS, CHESTPLATE, HELMET, BOW, UNKNOWN, ANY;
+}
