@@ -100,6 +100,7 @@ public class OpenFileWindow {
 		for (JSONObject jsonObject : JSONObjects.readArray(jsonArray))
 			if (name.equals(jsonObject.get("name")))
 				return jsonObject;
+		System.err.println("ein fehler ist unterlaufen");
 		return null;
 	}
 	
